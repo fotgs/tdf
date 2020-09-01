@@ -4,6 +4,11 @@ const PORT = process.env.PORT || 5000;
 
 const tdf = require("./tdf");
 
+app.use(function (req, res, next) {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  next();
+});
+
 app.get("/", (req, res) => {
   res.send('visit <a style="color: red" href="./api/tdf">API</a> link');
 });
