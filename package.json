@@ -1,0 +1,18 @@
+{
+  "name": "tdf-api",
+  "version": "1.0.0",
+  "description": "Test API for Tour de France 2020 stats serving frontend Angular app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Iulian",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
