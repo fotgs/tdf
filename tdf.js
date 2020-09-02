@@ -5,6 +5,8 @@ const tdf = [
     stageLengthKm: 156,
     stageStart: "NICE MOYEN PAYS",
     stageFinish: "NICE",
+    stageProfile:
+      "https://img.aso.fr/core_app/img-cycling-tdf-jpg/1/19353/0:0,1500:904-960-0-70/2ef06",
     stageRankings: [
       {
         position: 1,
@@ -98,6 +100,8 @@ const tdf = [
     stageLengthKm: 186,
     stageStart: "NICE HAUT PAYS",
     stageFinish: "NICE",
+    stageProfile:
+      "https://img.aso.fr/core_app/img-cycling-tdf-jpg/2/19354/0:0,1500:904-960-0-70/abdbd",
     stageRankings: [
       {
         position: 1,
@@ -191,6 +195,8 @@ const tdf = [
     stageLengthKm: 198,
     stageStart: "NICE",
     stageFinish: "SISTERON",
+    stageProfile:
+      "https://img.aso.fr/core_app/img-cycling-tdf-jpg/3/19355/0:0,1500:904-960-0-70/16b36",
     stageRankings: [
       {
         position: 1,
@@ -284,6 +290,8 @@ const tdf = [
     stageLengthKm: 160.5,
     stageStart: "SISTERON",
     stageFinish: "ORCIÈRES-MERLETTE",
+    stageProfile:
+      "https://img.aso.fr/core_app/img-cycling-tdf-jpg/4/19342/0:0,1500:904-960-0-70/91526",
     stageRankings: [
       {
         position: 1,
