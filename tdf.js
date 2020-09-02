@@ -281,7 +281,7 @@ const tdf = [
   {
     stageId: 4,
     stageDate: { day: 1, month: 9, year: 2020 },
-    stageLengthKm: 198,
+    stageLengthKm: 160.5,
     stageStart: "SISTERON",
     stageFinish: "ORCIÈRES-MERLETTE",
     stageRankings: [
