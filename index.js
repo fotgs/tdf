@@ -14,6 +14,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/api/tdf", (req, res) => {
+  console.log(tdf);
   res.json(tdf);
 });
 

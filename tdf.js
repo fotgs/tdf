@@ -373,4 +373,4 @@ const tdf = [
   },
 ];
 
-module.exports.tdf = tdf;
+module.exports = tdf;
