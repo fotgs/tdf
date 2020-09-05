@@ -5,6 +5,7 @@ const tdf = [
     stageLengthKm: 156,
     stageStart: "NICE MOYEN PAYS",
     stageFinish: "NICE",
+    stageType: "Flat",
     stageProfile:
       "https://img.aso.fr/core_app/img-cycling-tdf-jpg/1/19353/0:0,1500:904-960-0-70/2ef06",
     stageRankings: [
@@ -100,6 +101,7 @@ const tdf = [
     stageLengthKm: 186,
     stageStart: "NICE HAUT PAYS",
     stageFinish: "NICE",
+    stageType: "Mountain",
     stageProfile:
       "https://img.aso.fr/core_app/img-cycling-tdf-jpg/2/19354/0:0,1500:904-960-0-70/abdbd",
     stageRankings: [
@@ -195,6 +197,7 @@ const tdf = [
     stageLengthKm: 198,
     stageStart: "NICE",
     stageFinish: "SISTERON",
+    stageType: "Flat",
     stageProfile:
       "https://img.aso.fr/core_app/img-cycling-tdf-jpg/3/19355/0:0,1500:904-960-0-70/16b36",
     stageRankings: [
@@ -290,6 +293,7 @@ const tdf = [
     stageLengthKm: 160.5,
     stageStart: "SISTERON",
     stageFinish: "ORCIÈRES-MERLETTE",
+    stageType: "Hilly",
     stageProfile:
       "https://img.aso.fr/core_app/img-cycling-tdf-jpg/4/19342/0:0,1500:904-960-0-70/91526",
     stageRankings: [
@@ -374,6 +378,198 @@ const tdf = [
               "https://img.aso.fr/core_app/img-cycling-tdf-png/cof/19756/0:0,400:400-300-0-70/af09b",
             teamJersey:
               "https://img.aso.fr/core_app/img-cycling-tdf-png/cof/19169/0:0,829:828-300-0-70/50a4f",
+          },
+        },
+      },
+    ],
+  },
+  {
+    stageId: 5,
+    stageDate: { day: 2, month: 9, year: 2020 },
+    stageLengthKm: 183,
+    stageStart: "GAP",
+    stageFinish: "PRIVAS",
+    stageType: "Flat",
+    stageProfile:
+      "https://img.aso.fr/core_app/img-cycling-tdf-jpg/5/19343/0:0,1500:904-960-0-70/36cd7",
+    stageRankings: [
+      {
+        position: 1,
+        time: {
+          hours: 4,
+          minutes: 21,
+          seconds: 22,
+        },
+        rider: {
+          riderNo: 18,
+          riderName: "WOUT VAN AERT",
+          riderImage:
+            "https://img.aso.fr/core_app/img-cycling-tdf-png/18/21214/0:0,400:400-300-0-70/242ee",
+          riderCountry: {
+            countryShortName: "BEL",
+            countryName: "BELGIUM",
+            countryFlag:
+              "https://www.letour.fr/dist/images/flags/be-0dec981fbf.svg",
+          },
+          riderTeam: {
+            teamId: 1,
+            teamName: "TEAM JUMBO - VISMA",
+            teamLogo:
+              "https://img.aso.fr/core_app/img-cycling-tdf-jpg/tjv/18282/0:0,400:400-300-0-70/e2429",
+            teamJersey:
+              "https://img.aso.fr/core_app/img-cycling-tdf-png/tjv/19182/0:0,829:828-300-0-70/26b87",
+          },
+        },
+      },
+      {
+        position: 2,
+        time: {
+          hours: 4,
+          minutes: 21,
+          seconds: 22,
+        },
+        rider: {
+          riderNo: 203,
+          riderName: "CEES BOL",
+          riderImage:
+            "https://img.aso.fr/core_app/img-cycling-tdf-png/203/21352/0:0,400:400-300-0-70/701f4",
+          riderCountry: {
+            countryShortName: "NED",
+            countryName: "NETHERLANDS",
+            countryFlag:
+              "https://www.letour.fr/dist/images/flags/nl-fe4bfff4af.svg",
+          },
+          riderTeam: {
+            teamId: 20,
+            teamName: "TEAM SUNWEB",
+            teamLogo:
+              "https://img.aso.fr/core_app/img-cycling-tdf-png/sun/18272/0:0,400:400-300-0-70/a17ef",
+            teamJersey:
+              "https://img.aso.fr/core_app/img-cycling-tdf-png/sun/19179/0:0,829:828-300-0-70/f0cfb",
+          },
+        },
+      },
+      {
+        position: 3,
+        time: {
+          hours: 4,
+          minutes: 21,
+          seconds: 22,
+        },
+        rider: {
+          riderNo: 43,
+          riderName: "SAM BENNETT",
+          riderImage:
+            "https://img.aso.fr/core_app/img-cycling-tdf-png/43/21245/0:0,400:400-300-0-70/74739",
+          riderCountry: {
+            countryShortName: "IRL",
+            countryName: "IRELAND",
+            countryFlag:
+              "https://www.letour.fr/dist/images/flags/ie-6a6841f17b.svg",
+          },
+          riderTeam: {
+            teamId: 4,
+            teamName: "DECEUNINCK - QUICK - STEP",
+            teamLogo:
+              "https://img.aso.fr/core_app/img-cycling-tdf-png/dqt/18278/0:0,400:400-300-0-70/a31b9",
+            teamJersey:
+              "https://img.aso.fr/core_app/img-cycling-tdf-png/dqt/19170/0:0,829:828-300-0-70/cd0d7",
+          },
+        },
+      },
+    ],
+  },
+  {
+    stageId: 6,
+    stageDate: { day: 3, month: 9, year: 2020 },
+    stageLengthKm: 191,
+    stageStart: "LE TEIL",
+    stageFinish: "MONT AIGOUAL",
+    stageType: "Hilly",
+    stageProfile:
+      "https://img.aso.fr/core_app/img-cycling-tdf-jpg/6/19344/0:0,1500:904-960-0-70/5c95d",
+    stageRankings: [
+      {
+        position: 1,
+        time: {
+          hours: 4,
+          minutes: 32,
+          seconds: 34,
+        },
+        rider: {
+          riderNo: 146,
+          riderName: "ALEXEY LUTSENKO",
+          riderImage:
+            "https://img.aso.fr/core_app/img-cycling-tdf-png/146/21315/0:0,400:400-300-0-70/b2346",
+          riderCountry: {
+            countryShortName: "KAZ",
+            countryName: "KAZAKHSTAN",
+            countryFlag:
+              "https://www.letour.fr/dist/images/flags/kz-e84b974860.svg",
+          },
+          riderTeam: {
+            teamId: 14,
+            teamName: "ASTANA PRO TEAM",
+            teamLogo:
+              "https://img.aso.fr/core_app/img-cycling-tdf-png/ast/18280/0:0,400:400-300-0-70/22b35",
+            teamJersey:
+              "https://img.aso.fr/core_app/img-cycling-tdf-png/ast/19166/0:0,829:828-300-0-70/ecb44",
+          },
+        },
+      },
+      {
+        position: 2,
+        time: {
+          hours: 4,
+          minutes: 33,
+          seconds: 29,
+        },
+        rider: {
+          riderNo: 124,
+          riderName: "JESUS HERRADA",
+          riderImage:
+            "https://img.aso.fr/core_app/img-cycling-tdf-png/124/21291/0:0,400:400-300-0-70/d9929",
+          riderCountry: {
+            countryShortName: "ESP",
+            countryName: "SPAIN",
+            countryFlag:
+              "https://www.letour.fr/dist/images/flags/es-d53b3ecf05.svg",
+          },
+          riderTeam: {
+            teamId: 12,
+            teamName: "COFIDIS",
+            teamLogo:
+              "https://img.aso.fr/core_app/img-cycling-tdf-png/cof/19756/0:0,400:400-300-0-70/af09b",
+            teamJersey:
+              "https://img.aso.fr/core_app/img-cycling-tdf-png/cof/19169/0:0,829:828-300-0-70/50a4f",
+          },
+        },
+      },
+      {
+        position: 3,
+        time: {
+          hours: 4,
+          minutes: 34,
+          seconds: 49,
+        },
+        rider: {
+          riderNo: 111,
+          riderName: "GREG VAN AVERMAET",
+          riderImage:
+            "https://img.aso.fr/core_app/img-cycling-tdf-png/111/21280/0:0,400:400-300-0-70/e71de",
+          riderCountry: {
+            countryShortName: "BEL",
+            countryName: "BELGIUM",
+            countryFlag:
+              "https://www.letour.fr/dist/images/flags/be-0dec981fbf.svg",
+          },
+          riderTeam: {
+            teamId: 11,
+            teamName: "CCC TEAM",
+            teamLogo:
+              "https://img.aso.fr/core_app/img-cycling-tdf-png/ccc/18274/0:0,400:400-300-0-70/4d219",
+            teamJersey:
+              "https://img.aso.fr/core_app/img-cycling-tdf-png/ccc/19168/0:0,829:828-300-0-70/3afb5",
           },
         },
       },
