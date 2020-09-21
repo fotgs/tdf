@@ -389,7 +389,7 @@ const tdf = [
     stageLengthKm: 183,
     stageStart: "GAP",
     stageFinish: "PRIVAS",
-    stageType: "Flat",
+    stageType: "Hilly",
     stageProfile:
       "https://img.aso.fr/core_app/img-cycling-tdf-jpg/5/19343/0:0,1500:904-960-0-70/36cd7",
     stageRankings: [
